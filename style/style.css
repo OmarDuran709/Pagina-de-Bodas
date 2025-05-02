@@ -243,3 +243,195 @@ ul li {
     right: 17vw;
     bottom: 112vw;
 }
+
+.nosotros {
+    grid-column: 1/span 8;
+    grid-row: 2/span 1;
+    background-color: #fff45c;
+}
+
+.separadores {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1vw;
+    position: relative;
+    top: 32.4%;
+    width: 98vw;
+    font-family: "anybody";
+}
+
+.separador {
+    display: flex;
+    position: relative;
+    padding-left: 3%;
+    width: 20vw;
+    align-items: center;
+}
+
+.separador p {
+    padding-left: 3%;
+    position: relative;
+}
+
+.separadores img {
+    position: relative;
+    width: 4vw;
+}
+
+.separador2 {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    width: 25vw;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.separador2 p {
+    padding-right: 3%;
+}
+
+.separador2 img {
+    width: 4vw;
+}
+
+.containerNos {
+    position: relative;
+    top: 32%;
+    height: 50%;
+    display: flex;
+}
+
+.imgNosotros {
+    width: 50%;
+    position: relative;
+    top: 4%;
+    transform: rotate(356deg);
+}
+
+.cuadro1 {
+    border: 2px solid black;
+    width: 80%;
+    height: 100%;
+    background-color: #ffb4cc;
+    position: relative;
+    margin-left: 20%;
+}
+
+.cuadro2 {
+    border: 2px solid black;
+    width: 80%;
+    height: 100%;
+    background-color: #ffb4cc;
+    position: relative;
+    margin-left: 22%;
+    bottom: 102%;
+}
+
+.img3n {
+    border: 2px solid;
+    width: 80%;
+    height: 100%;
+    position: relative;
+    bottom: 204%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24.5%;
+    background-color: white;
+}
+
+.img3n img {
+    width: 93%;
+    height: 95%;
+    border: 2px solid black;
+}
+
+.derTex {
+    width: 50%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.primerF {
+    padding: 0;
+    position: relative;
+    font-family: "gulfs";
+    color: transparent;
+    font-size: 8vw;
+    -webkit-text-stroke: 3px #1357EB;
+    line-height: 0.9;
+    position: relative;
+    bottom: 12%;
+}
+
+.ovalo {
+    position: relative;
+    bottom: 63%;
+    right: 3%;
+    transform: rotate(-15deg);
+}
+
+.ovalo img {
+    width: 60%;
+}
+
+.segundaF {
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: 50%;
+    font-size: 1.1vw;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.terceraF {
+    display: flex;
+    font-family: "gulfs";
+    height: 10vw;
+    width: 110%;
+    position: relative;
+    bottom: 57%;
+    align-items: center;
+    font-size: 1.1vw;
+}
+
+.terceraF img {
+    position: relative;
+    width: 7vw;
+}
+
+.separadores1 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 40%;
+}
+
+.separador3 {
+    display: flex;
+    position: relative;
+    padding-left: 3%;
+    width: 20vw;
+    align-items: center;
+}
+
+.separador3 img {
+    width: 4vw;
+}
+
+.separador4 {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    width: 25vw;
+    align-items: center;
+    margin-right: 2.6%;
+}
+
+.separador4 img {
+    width: 4vw;
+}
