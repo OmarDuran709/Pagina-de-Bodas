@@ -534,3 +534,478 @@ ul li {
     bottom: 180%;
     margin-left: 220%;
 }
+
+.precio {
+    grid-column: 1/span 8;
+    grid-row: 4/span 1;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    font-family: "gulfs";
+}
+
+.construye {
+    grid-column: 1/span 2;
+    grid-row: 1/span 1;
+    border: 1px solid black;
+    background-color: #ffb4cc;
+    font-size: 2.2vw;
+    font-family: "gulfs";
+    padding-left: 10%;
+    color: #fc6734;
+}
+
+.compromiso {
+    padding-top: 50%;
+    grid-column: 3/span 1;
+    grid-row: 1/span 2;
+    border: 1px solid black;
+    background-color: #fff45c;
+    color: #fc6734;
+    text-align: center;
+    font-size: 1.4vw;
+}
+
+.inter1 {
+    text-align: center;
+    width: 1vw;
+    background-color: #fc6734;
+    border-radius: 100%;
+    color: #fff45c;
+    position: relative;
+    bottom: 11.9%;
+    margin-left: 89%;
+    padding-top: 10;
+    font-size: 0.7vw;
+}
+
+.interruptor {
+    width: 12vw;
+    height: 7vw;
+    background-color: #fc6734;
+    border-radius: 50vw;
+    position: relative;
+    padding: 1vw;
+    margin: 0 auto;
+    border: 2px solid black;
+    bottom: 15%;
+}
+
+.circulo {
+    position: relative;
+    background-color: #fff45c;
+    width: 6vw;
+    height: 6vw;
+    bottom: 10%;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.interruptor img {
+    transform: rotate(-35deg);
+    width: 5.5vw;
+    position: relative;
+    bottom: 6.4vw;
+    right: 1.5vw;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.sombra {
+    width: 12vw;
+    height: 7vw;
+    background-color: black;
+    border-radius: 50vw;
+    position: relative;
+    top: 10%;
+    margin-left: 22%;
+    border: 2px solid black;
+}
+
+.no1 {
+    position: relative;
+    bottom: 15%;
+}
+
+.anillosP {
+    position: relative;
+    bottom: 6.7vw;
+    right: 7.8vw;
+    z-index: 1;
+}
+
+.anillosP img {
+    width: 8vw;
+}
+
+.ceremonia {
+    grid-column: 4/span 1;
+    grid-row: 1/span 2;
+    border: 1px solid black;
+    text-align: center;
+    color: #045cfc;
+    font-size: 1.4vw;
+    padding-top: 50%;
+}
+
+.inter2 {
+    text-align: center;
+    width: 1vw;
+    background-color: #045cfc;
+    border-radius: 100%;
+    color: white;
+    position: relative;
+    bottom: 9%;
+    margin-left: 86%;
+    padding-top: 10;
+    font-size: 0.7vw;
+}
+
+.sombra1 {
+    width: 12vw;
+    height: 7vw;
+    background-color: black;
+    border-radius: 50vw;
+    position: relative;
+    top: 10%;
+    margin-left: 22%;
+    border: 2px solid black;
+}
+
+.interruptor1 {
+    width: 12vw;
+    height: 7vw;
+    background-color: #ffb4cc;
+    border-radius: 50vw;
+    position: relative;
+    padding: 1vw;
+    margin: 0 auto;
+    border: 2px solid black;
+    bottom: 15%;
+}
+
+.circulo2 {
+    position: relative;
+    background-color: #045cfc;
+    width: 6vw;
+    height: 6vw;
+    bottom: 10%;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.interruptor1 img {
+    transform: rotate(-35deg);
+    width: 5.5vw;
+    position: relative;
+    bottom: 6.4vw;
+    right: 1.5vw;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.no2 {
+    position: relative;
+    bottom: 15%;
+}
+
+.digital {
+    grid-column: 5/span 1;
+    grid-row: 1/span 2;
+    border: 1px solid black;
+    background-color: #045cfc;
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    padding-top: 10vw;
+}
+
+.digitalTex {
+    color: #0444c4;
+}
+
+.digital img {
+    width: 10vw;
+}
+
+.interr {
+    text-align: center;
+    width: 1vw;
+    background-color: white;
+    border-radius: 100vw;
+    color: #045cfc;
+    position: relative;
+    bottom: 8%;
+    margin-left: 86%;
+    font-size: 0.7vw;
+}
+
+.camara1 {
+    position: relative;
+    bottom: -0.6vw;
+    right: 10vw;
+}
+
+.camara1 img {
+    width: 8vw;
+}
+
+.horasT {
+    grid-column: 1/span 2;
+    grid-row: 2/span 1;
+    background-color: #ffb4cc;
+    color: #045cfc;
+    font-size: 1.2vw;
+    text-align: justify;
+    position: relative;
+    border: 1px solid black;
+}
+
+.hTtex {
+    position: relative;
+    margin-left: 5vw;
+    top: 20%;
+}
+
+.interro {
+    text-align: center;
+    width: 1vw;
+    background-color: #045cfc;
+    border-radius: 100%;
+    color: white;
+    position: relative;
+    bottom: -1%;
+    margin-left: 51%;
+    padding-top: 10;
+    font-size: 0.7vw;
+}
+
+.tres {
+    text-align: center;
+    width: 3vw;
+    background-color: #045cfc;
+    border-radius: 100%;
+    color: white;
+    position: relative;
+    bottom: 4%;
+    margin-left: 86%;
+    padding-top: 10;
+    font-size: 1.2vw;
+    border: 2px solid black;
+}
+
+.barrat {
+    border: 2px solid black;
+    height: 1vw;
+    width: 30vw;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10%;
+    border-radius: 0.6vw;
+    background-color: #fff45c;
+}
+
+.horasT img {
+    width: 7vw;
+    position: relative;
+    bottom: 4vw;
+    margin-left: 5.5vw;
+}
+
+.cabina {
+    grid-column: 1/span 1;
+    grid-row: 3/span 2;
+    border: 1px solid black;
+    background-color: #fff45c;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1357EB;
+}
+
+.masmenos {
+    border: 2px solid black;
+    width: 15vw;
+    height: 6vw;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1vw;
+    z-index: 2;
+    position: relative;
+    bottom: 1.4vw;
+}
+
+.O {
+    border: 2px solid black;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 3vw;
+    background-color: #ffb4cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.o {
+    border: 1px solid black;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 1vw;
+    background-color: white;
+}
+
+.masmenos img {
+    width: 2vw;
+}
+
+.contenedormaso {
+    border: 2px solid black;
+    width: 15vw;
+    height: 6vw;
+    border-radius: 3vw;
+    background-color: black;
+    position: relative;
+    top: 5vw;
+    margin-left: 1vw;
+}
+
+.mapa {
+    grid-column: 2/span 2;
+    grid-row: 3/span 2;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    padding-top: 5vw;
+    flex-wrap: wrap;
+}
+
+.lugar {
+    padding-left: 6vw;
+}
+
+.region {
+    position: relative;
+    top: 1vw;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-right: 4vw;
+}
+
+.interroMap {
+    text-align: center;
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    border-radius: 100vw;
+    color: black;
+    position: relative;
+    top: 2vw;
+    right: 1.9vw;
+    font-size: 0.7vw;
+}
+
+.soielmapa {
+    margin: 0 auto;
+    position: relative;
+    bottom: 8vw;
+}
+
+.soielmapa img {
+    width: 35vw;
+}
+
+.total {
+    grid-column: 4/span 2;
+    grid-row: 3/span 1;
+    border: 1px solid black;
+    background-color: #fc6734;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.totalPaga {
+    font-size: 1.5vw;
+    color: #ffb4cc;
+    position: relative;
+    top: 7vw;
+    right: 7vw;
+}
+
+.valorPaga {
+    font-size: 4vw;
+    color: #fff45c;
+}
+
+.paquete1 {
+    grid-column: 4/span 2;
+    border: 1px solid black;
+    background-color: #ffb4cc;
+    padding: 1.5vw;
+}
+
+.sombraBC {
+    position: relative;
+    width: 7vw;
+    height: 7vw;
+    background-color: black;
+    border-radius: 100%;
+    left: 75%;
+    top: -9%;
+}
+
+.botonContacto {
+    position: relative;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 100%;
+    background-color: red;
+    bottom: 40%;
+    left: 74%;
+    border: 2px solid black;
+}
+
+.textoBoton {
+    font-family: "anybody";
+    position: relative;
+    text-align: center;
+    margin-left: 68%;
+    bottom: 60%;
+    font-size: 1vw;
+}
+
+.email {
+    font-family: "anybody";
+    position: relative;
+    bottom: 100%;
+    color: rgb(224, 73, 73);
+    font-size: 1.2vw;
+    left: 310%;
+    margin-bottom: 75%;
+}
+
+.email1 {
+    position: relative;
+    top: 78%;
+}
+
+#mail {
+    position: relative;
+    background-color: lightcoral;
+    height: -10vw;
+    width: 20vw;
+    margin-top: 75%;
+}
+
+.textoPaquete {
+    font-size: 1.5vw;
+}
