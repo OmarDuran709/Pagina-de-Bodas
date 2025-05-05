@@ -1356,3 +1356,755 @@ ul li {
     top: 94%;
     left: 6%;
 }
+
+@media (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Body Grid Adjustments */
+    body {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 80vw 220vw 120vw 300vw 200vw 100vw; /* Adjusted for mobile content height */
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    /* Header Section */
+    .menu {
+        display: none; /* Hide desktop menu */
+    }
+
+    .menu-container {
+        display: block; /* Show mobile menu toggle */
+        position: relative;
+        z-index: 10;
+        grid-column: 1/span 8;
+        grid-row: 1/span 1;
+    }
+
+    .menu-toggle {
+        display: none; /* Hidden checkbox for toggle */
+    }
+
+    .menu-btn {
+        display: block;
+        position: absolute;
+        top: 5vw;
+        right: 5vw;
+        font-family: "gulfs";
+        font-size: 5vw;
+        background-color: #fc6734;
+        color: white;
+        padding: 2vw 4vw;
+        border: 2px solid black;
+        border-radius: 5vw;
+        cursor: pointer;
+    }
+
+    .menu-content {
+        display: none;
+        position: absolute;
+        top: 15vw;
+        right: 5vw;
+        background-color: #ffb4cc;
+        border: 2px solid black;
+        padding: 5vw;
+        width: 50vw;
+    }
+
+    .menu-toggle:checked ~ .menu-content {
+        display: block; /* Show menu when checkbox is checked */
+    }
+
+    .menu-content ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-content ul li {
+        margin: 3vw 0;
+        font-size: 4vw;
+    }
+
+    .menu-content img {
+        width: 6vw;
+        margin-right: 2vw;
+    }
+
+    .texto {
+        font-size: 6vw;
+        text-align: center;
+        line-height: 1.2;
+        position: relative;
+        top: 10vw;
+    }
+
+    .texto h1 {
+        font-size: 8vw;
+    }
+
+    .img {
+        bottom: 0;
+        height: auto;
+    }
+
+    .imagenDer, .imagenIzq {
+        display: none; /* Hide side images */
+    }
+
+    .imgCenter {
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 0;
+        height: auto;
+    }
+
+    .imgCenter img {
+        width: 80vw;
+        border-radius: 20vw;
+        height: auto;
+    }
+
+    .estrella-1 img {
+        width: 10vw;
+    }
+
+    .estrella-1 {
+        bottom: 60vw;
+        right: 10vw;
+    }
+
+    .estrella-2 img {
+        width: 5vw;
+    }
+
+    .estrella-2 {
+        bottom: 80vw;
+        right: 15vw;
+    }
+
+    .estrella-3 img {
+        width: 5vw;
+    }
+
+    .estrella-3 {
+        bottom: 70vw;
+        right: 5vw;
+    }
+
+    .division {
+        top: 20vw;
+    }
+
+    .estrellaAzul {
+        display: none; /* Hide blue star */
+    }
+
+    .caraFeliz img {
+        width: 20vw;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .caraFeliz {
+        bottom: 40vw;
+        right: 30vw;
+    }
+
+    .rayo img {
+        width: 15vw;
+    }
+
+    .rayo {
+        right: 10vw;
+        bottom: 50vw;
+    }
+
+    /* Nosotros Section */
+    .nosotros {
+        grid-row: 2/span 1;
+    }
+
+    .separadores {
+        top: 10vw;
+        width: 100vw;
+        font-size: 3vw;
+    }
+
+    .separadores p {
+        display: none; /* Hide text in separators */
+    }
+
+    .separador img, .separador2 img {
+        width: 10vw;
+    }
+
+    .separador2 {
+        margin-right: 5vw;
+    }
+
+    .containerNos {
+        flex-direction: column;
+        top: 20vw;
+        align-items: center;
+    }
+
+    .imgNosotros {
+        width: 90%;
+        transform: none;
+        top: 0;
+    }
+
+    .cuadro1, .cuadro2 {
+        width: 100%;
+        margin-left: 0;
+        height: 80vw;
+    }
+
+    .cuadro2 {
+        bottom: 80vw;
+    }
+
+    .img3n {
+        width: 100%;
+        bottom: 160vw;
+        margin-left: 0;
+    }
+
+    .img3n img {
+        width: 90%;
+        height: auto;
+    }
+
+    .derTex {
+        width: 90%;
+        margin: 0 auto;
+        padding: 5vw;
+    }
+
+    .primerF {
+        font-size: 10vw;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .ovalo {
+        bottom: -10vw;
+        right: 0;
+        transform: none;
+    }
+
+    .ovalo img {
+        width: 80%;
+    }
+
+    .segundaF {
+        font-size: 3.5vw;
+        bottom: 0;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    .terceraF {
+        bottom: 0;
+        font-size: 4vw;
+        justify-content: center;
+    }
+
+    .terceraF img {
+        width: 10vw;
+    }
+
+    .separadores1 {
+        top: 20vw;
+    }
+
+    .separador3 img, .separador4 img {
+        width: 10vw;
+    }
+
+    /* Galeria Section */
+    .galeria {
+        grid-row: 3/span 1;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    .galeria img {
+        border-radius: 10vw;
+        width: 80vw;
+        height: auto;
+        margin-top: 5vw;
+    }
+
+    .img1, .img4, .img6 {
+        display: none; /* Hide some images to simplify layout */
+    }
+
+    .img2, .img3, .img5, .img7 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .img2 img, .img3 img, .img5 img, .img7 img {
+        width: 80vw;
+        position: static;
+    }
+
+    /* Precios Section */
+    .precio {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, auto);
+        gap: 2vw;
+    }
+
+    .construye {
+        grid-column: 1/-1;
+        font-size: 6vw;
+        text-align: center;
+        padding: 5vw;
+    }
+
+    .horasT {
+        grid-column: 1/-1;
+        grid-row: 2/span 1;
+        font-size: 4vw;
+        padding: 5vw;
+    }
+
+    .hTtex {
+        top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .interro {
+        width: 5vw;
+        height: 5vw;
+        font-size: 4vw;
+        margin-left: 45vw;
+    }
+
+    .tres {
+        width: 6vw;
+        height: 6vw;
+        font-size: 4vw;
+        margin-left: 85vw;
+    }
+
+    .barrat {
+        width: 80vw;
+        height: 2vw;
+        right: 0;
+    }
+
+    .horasT img {
+        width: 20vw;
+        bottom: 0;
+        margin-left: 0;
+    }
+
+    .compromiso {
+        grid-column: 1/span 1;
+        grid-row: 3/span 2;
+        font-size: 4vw;
+        padding-top: 20vw;
+        height: auto;
+    }
+
+    .inter1 {
+        width: 5vw;
+        height: 5vw;
+        font-size: 4vw;
+        margin-left: 80vw;
+        bottom: 5vw;
+    }
+
+    .interruptor {
+        width: 30vw;
+        height: 15vw;
+        bottom: 5vw;
+    }
+
+    .circulo {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .interruptor img {
+        width: 10vw;
+        bottom: 12vw;
+        right: 2vw;
+    }
+
+    .sombra {
+        width: 30vw;
+        height: 15vw;
+        margin-left: 10vw;
+        top: 0;
+    }
+
+    .no1 {
+        bottom: 5vw;
+    }
+
+    .anillosP {
+        bottom: 10vw;
+        right: 0;
+    }
+
+    .anillosP img {
+        width: 20vw;
+    }
+
+    .ceremonia {
+        grid-column: 2/span 1;
+        grid-row: 3/span 2;
+        font-size: 4vw;
+        padding-top: 20vw;
+    }
+
+    .inter2 {
+        width: 5vw;
+        height: 5vw;
+        font-size: 4vw;
+        margin-left: 80vw;
+        bottom: 5vw;
+    }
+
+    .interruptor1 {
+        width: 30vw;
+        height: 15vw;
+        bottom: 5vw;
+    }
+
+    .circulo2 {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .interruptor1 img {
+        width: 10vw;
+        bottom: 12vw;
+        right: 2vw;
+    }
+
+    .sombra1 {
+        width: 30vw;
+        height: 15vw;
+        margin-left: 10vw;
+        top: 0;
+    }
+
+    .no2 {
+        bottom: 5vw;
+    }
+
+    .digital {
+        grid-column: 1/span 1;
+        grid-row: 5/span 2;
+        font-size: 4vw;
+        padding: 5vw;
+    }
+
+    .digitalTex {
+        bottom: 0;
+    }
+
+    .digital img {
+        width: 20vw;
+        bottom: 0;
+    }
+
+    .interr {
+        width: 5vw;
+        height: 5vw;
+        font-size: 4vw;
+        margin-left: 80vw;
+        bottom: 5vw;
+    }
+
+    .camara1 {
+        bottom: 0;
+        right: 0;
+    }
+
+    .camara1 img {
+        width: 15vw;
+    }
+
+    .cabina {
+        grid-column: 2/span 1;
+        grid-row: 5/span 2;
+        font-size: 4vw;
+    }
+
+    .masmenos {
+        width: 40vw;
+        height: 20vw;
+        bottom: 0;
+    }
+
+    .O {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .o {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .masmenos img {
+        width: 8vw;
+    }
+
+    .contenedormaso {
+        width: 40vw;
+        height: 20vw;
+        top: 10vw;
+    }
+
+    .mapa {
+        grid-column: 1/-1;
+        grid-row: 7/span 2;
+        font-size: 4vw;
+        padding-top: 10vw;
+        height: auto;
+    }
+
+    .lugar {
+        padding-left: 10vw;
+    }
+
+    .interroMap {
+        width: 5vw;
+        height: 5vw;
+        font-size: 4vw;
+        top: 5vw;
+        right: 10vw;
+    }
+
+    .soielmapa img {
+        width: 80vw;
+        bottom: 0;
+    }
+
+    .total {
+        grid-column: 1/-1;
+        grid-row: 9/span 1;
+        padding: 5vw;
+        height: auto;
+    }
+
+    .totalPaga {
+        font-size: 4vw;
+        top: 0;
+        right: 0;
+    }
+
+    .valorPaga {
+        font-size: 8vw;
+    }
+
+    .paquete1, .email {
+        display: none; /* Hide package button and email for simplicity */
+    }
+
+    /* Contacto Section */
+    .contacto {
+        grid-row: 5/span 2;
+    }
+
+    .linea-azul {
+        height: 2vw;
+    }
+
+    .textoC1 {
+        font-size: 8vw;
+        line-height: 10vw;
+        top: 10vw;
+        right: 5vw;
+        justify-content: center;
+    }
+
+    .textoC2 {
+        font-size: 3vw;
+        top: 15vw;
+        right: 5vw;
+        justify-content: center;
+    }
+
+    .custom-date-input {
+        top: 20vw;
+        right: 5vw;
+        justify-content: center;
+    }
+
+    .custom-date-input h1 {
+        font-size: 6vw;
+        left: 0;
+    }
+
+    .date-input {
+        font-size: 6vw;
+        right: 0;
+    }
+
+    .lineaC {
+        top: 10vw;
+        left: 10vw;
+        width: 80vw;
+    }
+
+    .flecha img {
+        width: 5vw;
+    }
+
+    .flecha {
+        left: 85vw;
+        bottom: 5vw;
+    }
+
+    .flecha-rosada img {
+        width: 5vw;
+    }
+
+    .flecha-rosada {
+        height: 10vw;
+        width: 10vw;
+        left: 80vw;
+        bottom: 0;
+    }
+
+    .cuadroC {
+        top: 30vw;
+        left: 10vw;
+        width: 80vw;
+        height: 15vw;
+        font-size: 2vw;
+    }
+
+    .cuadroC2 {
+        top: 28vw;
+        left: 9vw;
+        width: 80vw;
+        height: 15vw;
+    }
+
+    .facebook, .instagram, .telegram {
+        width: 8vw;
+        height: 8vw;
+        padding: 2vw;
+    }
+
+    /* Contacto Images */
+    .imgC1 img, .imgC2 img {
+        width: 20vw;
+    }
+
+    .imgC1 {
+        bottom: 20%;
+        left: 30%;
+    }
+
+    .imgC2 {
+        top: 85%;
+        left: 30%;
+    }
+
+    .imgC3 img {
+        width: 10vw;
+    }
+
+    .imgC3 {
+        bottom: 25%;
+        left: 5%;
+    }
+
+    .imgC4 img {
+        width: 10vw;
+    }
+
+    .imgC4 {
+        right: 10vw;
+        bottom: 20vw;
+    }
+
+    .imgC5 img {
+        width: 30vw;
+    }
+
+    .imgC5 {
+        right: 10vw;
+        top: 50vw;
+    }
+
+    .imgC6 img {
+        width: 10vw;
+    }
+
+    .imgC6 {
+        right: 10vw;
+        bottom: 10vw;
+    }
+
+    .imgC7 img {
+        width: 15vw;
+    }
+
+    .imgC7 {
+        right: 10vw;
+        bottom: 30vw;
+    }
+
+    .imgC8 img {
+        width: 20vw;
+    }
+
+    .imgC8 {
+        right: 10vw;
+        bottom: 40vw;
+    }
+
+    .imgC9 img {
+        width: 40vw;
+    }
+
+    .imgC9 {
+        right: 10vw;
+        bottom: 5vw;
+    }
+
+    .imgC10 img {
+        width: 15vw;
+    }
+
+    .imgC10 {
+        top: 90%;
+        right: 10vw;
+    }
+
+    .imgC11 img {
+        width: 15vw;
+    }
+
+    .imgC11 {
+        bottom: 20%;
+        left: 10%;
+    }
+
+    .imgC12 img {
+        width: 10vw;
+    }
+
+    .imgC12 {
+        top: 80%;
+        left: 5%;
+    }
+}
